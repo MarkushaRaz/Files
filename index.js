@@ -58,7 +58,7 @@ document.getElementById('Start').addEventListener('click', function() {
     Valid = confirm('Подтвердите действие');
 
     if (Valid === true) {
-        SpamInterval = setInterval(Spam, 250);
+        SpamInterval = setInterval(Spam, 400);
 
         document.getElementById('Status').innerHTML = '<H1 class="center Yes" id="Status">Спам активен</H1>'
     }
